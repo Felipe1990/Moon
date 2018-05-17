@@ -17,7 +17,7 @@ I enjoy working with data, examing it and find ways to say something interesting
 
 ## What did I study?
 
-I studied Economics
+Economics
 
 ## Where did the idea of this blog came from?
 
