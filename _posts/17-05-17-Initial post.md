@@ -13,9 +13,7 @@ Presidential candidates considered: Sergio Fajardo, Iván Duque, Humberto de la 
 
 ## Getting tweets
 
-
-
-
+From rtweet
 
 
 
