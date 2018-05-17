@@ -1,37 +1,28 @@
 ---
 layout: page
-title: About the Theme
-tags: [about, Jekyll, theme, moon]
+title: About this blog, and me
+tags: [about, Jekyll, theme, me]
 date: 2016-03-21
 comments: false
 ---
     
-<center><a href="http://taylantatli.github.io/Moon"><b>Moon</b></a> is a minimal, one column jekyll theme.</center>
+## What do I do?
 
-## Features
-* Minimal, you can focus on your content
-* Responsive
-* Disqus integration
-* Syntax highlighting
-* Optional post image
-* Social icons
-* Page for sharing projects
-* Optional background image
-* Simple navigation menu
-* MathJax support
+Curretly I work as resarch assistant and teaching assistant in the Department of Economics in Universidad de los Andes.
+I taught R, Microeconomics and Forecasting
 
-## Preview
+## What do I like?
 
-{% capture images %}
-    https://cloud.githubusercontent.com/assets/754514/14509720/61c61058-01d6-11e6-93ab-0918515ecd56.png
-    https://cloud.githubusercontent.com/assets/754514/14509716/61ac6c8e-01d6-11e6-879f-8308883de790.png
-{% endcapture %}
-{% include gallery images=images caption="Screenshots of Moon Theme" cols=2 %}
+I enjoy working with data, examing it and find ways to say something interesting with it. 
 
-See a [live version of Moon](http://taylantatli.github.io/Moon) hosted on GitHub.
+## What did I study?
 
-## Getting Started
+I studied Economics
 
-To learn how to install and use this theme check out the [Setup Guide](http://taylantatli.me/Moon/moon-theme/) for more information.
-      
-[Install Moon](https://github.com/TaylanTatli/Moon){: .btn}
+## Where did the idea of this blog came from?
+
+Following the [advice](http://varianceexplained.org/r/start-blog/) of David Robinson I decided to start this blog. Also as a way to help the future me to remeber solutions and tips I have found after hitting the wall for many hours.
+
+## About the theme of this blog
+
+This blog used the theme made by TaylanTatli. You can check out all the information about it and the stetp to "install" it and use it [here]((https://github.com/TaylanTatli/Moon).
