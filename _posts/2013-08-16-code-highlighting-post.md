@@ -11,11 +11,20 @@ Syntax highlighting is a feature that displays source code, in different colors 
 
 [^1]: <http://en.wikipedia.org/wiki/Syntax_highlighting>
 
+pruebas 
+
+{% highlight r %}
+library(dplyr)
+base<-read.csv("asas") %>%
+    mutate(x=2+1)
+}
+{% endhighlight %}
+
 ### Highlighted Code Blocks
 
 To modify styling and highlight colors edit `/assets/css/syntax.css`.
 
-{% highlight r %}
+{% highlight html %}
 #container {
     float: left;
     margin: 0 -240px 0 0;
