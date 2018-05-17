@@ -15,7 +15,7 @@ Syntax highlighting is a feature that displays source code, in different colors 
 
 To modify styling and highlight colors edit `/assets/css/syntax.css`.
 
-{% highlight css %}
+{% highlight r %}
 #container {
     float: left;
     margin: 0 -240px 0 0;
