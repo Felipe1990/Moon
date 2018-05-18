@@ -26,10 +26,18 @@ From rtweet
     <a href="https://raw.githubusercontent.com/Felipe1990/personalblog/master/assets/img/post_1/weekly_tweets.jpg"><img src="https://raw.githubusercontent.com/Felipe1990/personalblog/master/assets/img/post_1/weekly_tweets.jpg" width="100" height="75" align="middle"></a>
 </figure>
 
-
-<figure class="third">
+<figure class="fifth">
     <a href="https://raw.githubusercontent.com/Felipe1990/personalblog/master/assets/img/post_1/wordclud_DeLaCalleHum.jpg"><img src="https://raw.githubusercontent.com/Felipe1990/personalblog/master/assets/img/post_1/wordclud_DeLaCalleHum.jpg" width="100" height="75" align="middle"></a>
 	<a href="https://raw.githubusercontent.com/Felipe1990/personalblog/master/assets/img/post_1/sum_per_tweet.jpg"><img src="https://raw.githubusercontent.com/Felipe1990/personalblog/master/assets/img/post_1/sum_per_tweet.jpg" width="100" height="100" align="middle"></a>
 	<a href="https://raw.githubusercontent.com/Felipe1990/personalblog/master/assets/img/post_1/sum_per_tweet.jpg"><img src="https://raw.githubusercontent.com/Felipe1990/personalblog/master/assets/img/post_1/sum_per_tweet.jpg" width="100" height="75" align="middle"></a>
     <a href="https://raw.githubusercontent.com/Felipe1990/personalblog/master/assets/img/post_1/weekly_tweets.jpg"><img src="https://raw.githubusercontent.com/Felipe1990/personalblog/master/assets/img/post_1/weekly_tweets.jpg" width="100" height="75" align="middle"></a>
 </figure>
+
+
+{% capture images %}
+	https://raw.githubusercontent.com/Felipe1990/personalblog/master/assets/img/post_1/wordclud_DeLaCalleHum.jpg
+	https://raw.githubusercontent.com/Felipe1990/personalblog/master/assets/img/post_1/sum_per_tweet.jpg
+	https://raw.githubusercontent.com/Felipe1990/personalblog/master/assets/img/post_1/sum_per_tweet.jpg
+	https://raw.githubusercontent.com/Felipe1990/personalblog/master/assets/img/post_1/sum_per_tweet.jpg
+{% endcapture %}
+{% include gallery images=images caption="Test images" cols=2 %}
