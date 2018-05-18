@@ -19,10 +19,8 @@ From rtweet
 </figure>
 
 
-<figure class="fourth">
-	<img src="https://raw.githubusercontent.com/Felipe1990/personalblog/master/assets/img/post_1/sum_per_tweet.jpg" width="400" height="300" align="middle">
-	<img src="https://raw.githubusercontent.com/Felipe1990/personalblog/master/assets/img/post_1/sum_per_tweet.jpg" width="400" height="300" align="middle">
-	<img src="https://raw.githubusercontent.com/Felipe1990/personalblog/master/assets/img/post_1/sum_per_tweet.jpg" width="400" height="300" align="middle">
-	<img src="https://raw.githubusercontent.com/Felipe1990/personalblog/master/assets/img/post_1/sum_per_tweet.jpg" width="400" height="300" align="middle">
-	<figcaption>Three images.</figcaption>
+<figure class="half">
+    <a href="https://raw.githubusercontent.com/Felipe1990/personalblog/master/assets/img/post_1/sum_per_tweet.jpg"><img src="https://raw.githubusercontent.com/Felipe1990/personalblog/master/assets/img/post_1/sum_per_tweet.jpg" width="100" height="75" align="middle"></a>
+    <a href="https://raw.githubusercontent.com/Felipe1990/personalblog/master/assets/img/post_1/sum_per_tweet.jpg"><img src="https://raw.githubusercontent.com/Felipe1990/personalblog/master/assets/img/post_1/sum_per_tweet.jpg" width="100" height="75" align="middle"></a>
+    <figcaption>Caption describing these two images.</figcaption>
 </figure>
