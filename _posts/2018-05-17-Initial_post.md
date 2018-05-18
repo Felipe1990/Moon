@@ -15,5 +15,14 @@ Presidential candidates considered: Sergio Fajardo, Iván Duque, Humberto de la 
 
 From rtweet
 <figure>
+	<a><img src="https://raw.githubusercontent.com/Felipe1990/personalblog/master/assets/img/post_1/sum_per_tweet.jpg" width="400" height="300" align="middle"></a>
+</figure>
+
+
+<figure class="fourth">
 	<img src="https://raw.githubusercontent.com/Felipe1990/personalblog/master/assets/img/post_1/sum_per_tweet.jpg" width="400" height="300" align="middle">
+	<img src="https://raw.githubusercontent.com/Felipe1990/personalblog/master/assets/img/post_1/sum_per_tweet.jpg" width="400" height="300" align="middle">
+	<img src="https://raw.githubusercontent.com/Felipe1990/personalblog/master/assets/img/post_1/sum_per_tweet.jpg" width="400" height="300" align="middle">
+	<img src="https://raw.githubusercontent.com/Felipe1990/personalblog/master/assets/img/post_1/sum_per_tweet.jpg" width="400" height="300" align="middle">
+	<figcaption>Three images.</figcaption>
 </figure>
