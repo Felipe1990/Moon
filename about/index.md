@@ -25,4 +25,4 @@ Following the [advice](http://varianceexplained.org/r/start-blog/) of David Robi
 
 ## About the theme of this blog
 
-This blog used the theme made by TaylanTatli. You can check out all the information about it and the stetp to "install" it and use it [here](https://github.com/TaylanTatli/Moon).
+This blog uses the theme made by TaylanTatli. You can check out all the information about it and the stetps to install it [here](https://github.com/TaylanTatli/Moon).

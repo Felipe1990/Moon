@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "What are the candidates talking a few days before elections"
-date: 17-05-2018
+date: 2018-05-17
 excerpt: "A few network plots and wordclouds"
 tags: [wordcloud, network, bigrams]
 comments: true
@@ -14,6 +14,6 @@ Presidential candidates considered: Sergio Fajardo, Iván Duque, Humberto de la 
 ## Getting tweets
 
 From rtweet
-
-
-
+<figure>
+	<img src="/assets/img/post_1/sum_per_tweet.jpg" width="400" height="300" align="middle">
+</figure>
