@@ -7,7 +7,7 @@ tags: [wordcloud, network, bigrams]
 comments: true
 ---
 
-Only a week before election day I figured it could be interesting to have a little glimpse of the candidates' behavior in their social networks (Twitter in particular) [^1]. For this post I focused only on the number of original tweets using wordclouds and network graphs to try to find something noteworthy. As original tweets I consider just the tweets that are written by the candidate that weren't replies or retweets. This reduces the number of tweets available for analysis but I take them as a better representation of each candidate speech.
+Only a week before election day I figured it could be interesting to have an idea of the candidates' behavior in their social networks (Twitter in particular) [^1]. For this post I focused only on the number of original tweets using wordclouds and network graphs to try to find something noteworthy. As original tweets I consider just the tweets that are written by the candidate that weren't replies or retweets. This reduces the number of tweets available for analysis but I take them as a better representation of each candidate speech.
 
 [^1]: Disclaimer: I am only taking their tweets from 13-05-2015.
 
@@ -69,9 +69,7 @@ Know, something that is amusing to watch and often says a lot of what a person u
 	<a href="https://raw.githubusercontent.com/Felipe1990/personalblog/master/assets/img/post_1/wordclud_petrogustavo.jpg"><img src="https://raw.githubusercontent.com/Felipe1990/personalblog/master/assets/img/post_1/wordclud_petrogustavo.jpg" width="100" height="75" align="middle"></a>
 </figure>
 
-## Some (disappointing) bigram graphs
-
-When I was "drawing" this graphs I expected to find some interesting visual representation of relations between words for each candidate that shed light on the candidates' speech, but well, maybe my expectation were too hight or the time window too narrow (only one week). No big (or small) revelation was achieved (or noticed by me).
+## Some bigram graphs
 
 {% capture images %}
 	https://raw.githubusercontent.com/Felipe1990/personalblog/master/assets/img/post_1/bigram_sergio_fajardo.jpg
@@ -80,4 +78,4 @@ When I was "drawing" this graphs I expected to find some interesting visual repr
 	https://raw.githubusercontent.com/Felipe1990/personalblog/master/assets/img/post_1/bigram_German_Vargas.jpg
 	https://raw.githubusercontent.com/Felipe1990/personalblog/master/assets/img/post_1/bigram_DeLaCalleHum.jpg
 {% endcapture %}
-{% include gallery images=images caption="Test images" cols=2 %}
+{% include gallery images=images caption="Test images" cols=3 %}

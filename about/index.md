@@ -8,8 +8,8 @@ comments: false
     
 ## What do I do?
 
-Currently I work as resarch assistant and teaching assistant in the Department of Economics in Universidad de los Andes.
-I taught R, Microeconomics and Forecasting
+Currently I work as resarch assistant and teaching assistant at the Department of Economics at Universidad de los Andes.
+Courses I taught: R workshop, Microeconomics, Game Theory and Forecasting
 
 ## What do I like?
 
@@ -25,4 +25,4 @@ Following the [advice](http://varianceexplained.org/r/start-blog/) of David Robi
 
 ## About the theme of this blog
 
-This blog uses the theme made by TaylanTatli. You can check out all the information about it and the stetps to install it [here](https://github.com/TaylanTatli/Moon).
+This blog uses the theme made by TaylanTatli. You can check out all the information about it and the steps to install it [here](https://github.com/TaylanTatli/Moon).
