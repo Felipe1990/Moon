@@ -2,12 +2,12 @@
 layout: post
 title: "Python solutions: one chili"
 date: 2018-05-17
-excerpt: "Solution from [Python exercises](http://www.practicepython.org), only one chili category"
+excerpt: "Solution of Python exercises (in progress)"
 tags: [python, solutions, exercises]
 comments: true
 ---
 
-This are my proposed solutions to the excersies posted at [Practice Python](http://www.practicepython.org). In this post there will only be one chili exercises. 
+Here are my proposed solutions to the excersies posted at [Practice Python](http://www.practicepython.org). In this post there will only be one chili exercises. 
 
 Sometines I'll try to explain what I did, not because is too complex but because it helps me understand it better.
 

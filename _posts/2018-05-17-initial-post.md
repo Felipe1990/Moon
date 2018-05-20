@@ -3,7 +3,7 @@ layout: post
 title: "What are the candidates talking a few days before elections"
 date: 2018-05-17
 excerpt: "A few network plots and wordclouds"
-tags: [wordcloud, network, bigrams]
+tags: [wordcloud, network, bigrams, R]
 comments: true
 ---
 
@@ -54,8 +54,9 @@ As shown before, apparently none of the candidates were particullary active this
 
 ## More interesting graphs
 
-Know, something that is amusing to watch and often says a lot of what a person use to talk about... wordclouds. For each wordcloud hashtags were allowed. The stopwords dictionary used to eliminate the word that carry no meaning was quanteda's. First, German Vargas and Ivan Duque and in a second group Sergio Fajardo, Humberto de la Calle and Gustavo Petro.
+Now, something that is amusing to watch and often says a lot of what a person use to talk about... wordclouds. For each wordcloud hashtags were allowed. The stopwords dictionary used to eliminate the word that carry no meaning was quanteda's.
 
+For all candidates (except for Gustavo Petro) the most frequent word correspond to theri campaign slogans. Interestingly antanasmockus is a frequent word for Fajardo al also "sepuede" which reflects the general sensation of the Fajardo campaign. In the case of De la Calle there are more words and the most frequent is "mivotoesdelacalle" which is his campaign slogan. Among the five candidates, German Vargas is the only one who has not the word "educacion" (education) in his wordcloud. It's worth noting that while gustavo has the highest number of followers and interactions per tweets he is also the one with the lowest number of different words in his wordcloud.
 
 <figure class="half">
     <a href="https://raw.githubusercontent.com/Felipe1990/personalblog/master/assets/img/post_1/wordclud_IvanDuque.jpg"><img src="https://raw.githubusercontent.com/Felipe1990/personalblog/master/assets/img/post_1/wordclud_IvanDuque.jpg" width="100" height="75" align="middle"></a>
@@ -69,7 +70,13 @@ Know, something that is amusing to watch and often says a lot of what a person u
 	<a href="https://raw.githubusercontent.com/Felipe1990/personalblog/master/assets/img/post_1/wordclud_petrogustavo.jpg"><img src="https://raw.githubusercontent.com/Felipe1990/personalblog/master/assets/img/post_1/wordclud_petrogustavo.jpg" width="100" height="75" align="middle"></a>
 </figure>
 
+In general, candidates are mostly advertising themselves.
+
 ## Some bigram graphs
+
+Bigrams are pairs of words, just like in the case of wordclouds I countes the number of times that each bigram has been said (posted), excluding those with irrelevant words. What is iteresting about bigrams is that allow for meaning.
+
+One can observe that "Alvaro Uribe" is a recurrent bigram for Gustavo Petro, but by far the most frequent was "Colombia Humana", which is basically his campaign slogan. In the caso of German Vargas, there are a couple of bigrams related to infrastructure such as "vias tercearias" and "doble calzada".
 
 {% capture images %}
 	https://raw.githubusercontent.com/Felipe1990/personalblog/master/assets/img/post_1/bigram_sergio_fajardo.jpg
@@ -78,4 +85,6 @@ Know, something that is amusing to watch and often says a lot of what a person u
 	https://raw.githubusercontent.com/Felipe1990/personalblog/master/assets/img/post_1/bigram_German_Vargas.jpg
 	https://raw.githubusercontent.com/Felipe1990/personalblog/master/assets/img/post_1/bigram_DeLaCalleHum.jpg
 {% endcapture %}
-{% include gallery images=images caption="Test images" cols=3 %}
+{% include gallery images=images cols=3 %}
+
+For each candidate only bigrams posted more than once were considered.
