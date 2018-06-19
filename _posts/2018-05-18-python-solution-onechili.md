@@ -5,6 +5,7 @@ date: 2018-05-17
 excerpt: "Solution of Python exercises (in progress)"
 tags: [python, solutions, exercises]
 comments: true
+project: true
 ---
 
 Here are my proposed solutions to the excersies posted at [Practice Python](http://www.practicepython.org). In this post there will only be one chili exercises. 
