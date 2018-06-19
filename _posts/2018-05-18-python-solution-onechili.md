@@ -34,8 +34,8 @@ def age():
 
 Extras:
 
-	*	Add on to the previous program by asking the user for another number and printing out that many copies of the previous message. (Hint: order of operations exists in Python)
-    *	Print out that many copies of the previous message on separate lines. (Hint: the string "\n is the same as pressing the ENTER button)
+*	Add on to the previous program by asking the user for another number and printing out that many copies of the previous message. (Hint: order of operations exists in Python)
+*	Print out that many copies of the previous message on separate lines. (Hint: the string "\n is the same as pressing the ENTER button)
 
 {% highlight python %} 
 def age():
@@ -75,8 +75,8 @@ Hopefully the user will follow the instructions.
 
 Extras:
 
-	*	If the number is a multiple of 4, print out a different message
-	*	Ask the user for two numbers: one number to check (call it num) and one number to divide by (check). If check divides evenly into num, tell that to the user. If not, print a different appropriate message.
+*	If the number is a multiple of 4, print out a different message
+*	Ask the user for two numbers: one number to check (call it num) and one number to divide by (check). If check divides evenly into num, tell that to the user. If not, print a different appropriate message.
 	
 {% highlight python %}
 def even_extra_1():
@@ -108,7 +108,7 @@ def E_3(x):
 
 A less efficient alternative could be:
 
-{% highlight pythoon 
+{% highlight pythoon %}
 def E_3(x):
     element_1=x[0]
     x.reverse()
@@ -128,7 +128,7 @@ That felt a little like cheating since "in" is doing all the work.
 
 Extra:
 
-	*	Use binary search.
+*	Use binary search.
 
 Binary search is a search algorithm that finds the position of a target value within a sorted array.[4][5] Binary search compares the target value to the middle element of the array; if they are unequal, the half in which the target cannot lie is eliminated and the search continues on the remaining half until the target value is found. If the search ends with the remaining half being empty, the target is not in the array. [^1]
 
