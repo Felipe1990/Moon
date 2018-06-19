@@ -88,27 +88,28 @@ def even_extra_1():
     else :
         print("That's an odd number")
 
-def par2():
-    num=int(input("Escriba un número a verificar: ",))
-    check=int(input("Escriba el número de verificación: "))
+
+def even_extra_2():
+    num=int(input("Please write an integer to be verified: ",))
+    check=int(input("Please write an integer (possible multiple): "))
     if num % check == 0:
-        print("su número es múltiplo del número de verificacion")
+        print("{} is multiple of {}".format(num, check))
     else :
-        print("paila, no es múltiplo")
+        print("{} is not multiple of {}".format(num, check))
 {% endhighlight %}
 
 ##  [Beginner Python exercises: E.12](https://www.practicepython.org/exercise/2014/04/25/12-list-ends.html)
 
 Write a program that takes a list of numbers (for example, a = [5, 10, 15, 20, 25]) and makes a new list of only the first and last elements of the given list. For practice, write this code inside a function.
 
-{% highlight pythoon %}
+{% highlight python %}
 def E_3(x):
     print([x[0], x[len(x)-1]])
 {% endhighlight %}
 
 A less efficient alternative could be:
 
-{% highlight pythoon %}
+{% highlight python %}
 def E_3(x):
     element_1=x[0]
     x.reverse()
