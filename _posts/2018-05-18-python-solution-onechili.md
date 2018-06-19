@@ -69,7 +69,7 @@ def even():
         print("That's a even number")
     else :
         print("That's an odd number")
-{%endhighlight}
+{%endhighlight%}
 
 Hopefully the user will follow the instructions.
 
