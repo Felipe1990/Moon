@@ -14,7 +14,7 @@ Here are my proposed solutions to the excersies posted at [Practice Python](http
 
 Create a program that asks the user to enter their name and their age. Print out a message addressed to them that tells them the year that they will turn 100 years old.
 
-{% highlight python%} 
+{% highlight python %} 
 def age():
     name=input("What is your name? ")
     age=input("Hi {}, How old are you (in years)? ".format(name))
@@ -37,7 +37,7 @@ Extras:
 	*	Add on to the previous program by asking the user for another number and printing out that many copies of the previous message. (Hint: order of operations exists in Python)
     *	Print out that many copies of the previous message on separate lines. (Hint: the string "\n is the same as pressing the ENTER button)
 
-{% highlight python%} 
+{% highlight python %} 
 def age():
     number=input("Write a number ")
     name=input("What is your name? ")
@@ -69,7 +69,7 @@ def even():
         print("That's a even number")
     else :
         print("That's an odd number")
-{%endhighlight%}
+{% endhighlight %}
 
 Hopefully the user will follow the instructions.
 
@@ -101,28 +101,28 @@ def par2():
 
 Write a program that takes a list of numbers (for example, a = [5, 10, 15, 20, 25]) and makes a new list of only the first and last elements of the given list. For practice, write this code inside a function.
 
-{%highlight pythoon%}
+{% highlight pythoon %}
 def E_3(x):
     print([x[0], x[len(x)-1]])
-{%endhighlight%}
+{% endhighlight %}
 
 A less efficient alternative could be:
 
-{%highlight pythoon%}
+{% highlight pythoon 
 def E_3(x):
     element_1=x[0]
     x.reverse()
     print([element_1, x[0]])
-{%endhighlight%}
+{% endhighlight %}
 
 ##  [Beginner Python exercises: E.20](https://www.practicepython.org/exercise/2014/11/11/20-element-search.html)
 
 Write a function that takes an ordered list of numbers (a list where the elements are in order from smallest to largest) and another number. The function decides whether or not the given number is inside the list and returns (then prints) an appropriate boolean.
 
-{% highlight python%}
+{% highlight python %}
 def search(a_list, x):
     return x in a_list
-{%endhighlight%}
+{% endhighlight %}
 
 That felt a little like cheating since "in" is doing all the work.
 
@@ -132,7 +132,7 @@ Extra:
 
 Binary search is a search algorithm that finds the position of a target value within a sorted array.[4][5] Binary search compares the target value to the middle element of the array; if they are unequal, the half in which the target cannot lie is eliminated and the search continues on the remaining half until the target value is found. If the search ends with the remaining half being empty, the target is not in the array. [^1]
 
-{%highlight python%}
+{% highlight python %}
 def binary_search(a_list, x):
     
     inner_list=a_list
@@ -153,7 +153,7 @@ def binary_search(a_list, x):
         
             elif x<inner_list[position]:
                 inner_list=inner_list[:position]
-{%endhighlight%}
+{% endhighlight %}
 
 While the sintax suggests that the loop will run forever return stops the function (as well as the loop) so no break is necessary.
 
