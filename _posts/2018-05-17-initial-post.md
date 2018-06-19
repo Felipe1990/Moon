@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "What are the candidates talking a few days before elections"
+title: "What were the candidates talking about a few days before elections"
 date: 2018-05-17
 excerpt: "A few network plots and wordclouds"
 tags: [wordcloud, network, bigrams, R]
@@ -74,7 +74,7 @@ In general, candidates are mostly advertising themselves.
 
 ## Some bigram graphs
 
-Bigrams are pairs of words, just like in the case of wordclouds I countes the number of times that each bigram has been said (posted), excluding those with irrelevant words. What is iteresting about bigrams is that allow for meaning.
+Bigrams are pairs of words, just like in the case of wordclouds I counted the number of times that each bigram has been said (posted), excluding those with irrelevant words. What is iteresting about bigrams is that allow for meaning.
 
 One can observe that "Alvaro Uribe" is a recurrent bigram for Gustavo Petro, but by far the most frequent was "Colombia Humana", which is basically his campaign slogan. In the caso of German Vargas, there are a couple of bigrams related to infrastructure such as "vias tercearias" and "doble calzada".
 
