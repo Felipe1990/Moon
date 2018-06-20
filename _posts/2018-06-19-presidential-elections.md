@@ -11,7 +11,7 @@ Presidential elections have passed and Duque is the new president. After Registr
 
 The resulting database was lmited by the results found only in the second round of elections. Thus I complemented it with the results from the first round and the national peace plebiscite held in 2016. The aim was to capture the movement of votes through the elections round and try to infer someting about the voters [^2].
 
-[^1]: [Results] (https://presidente2018.registraduria.gov.co/resultados/2html/resultados.html)
+[^1]: [Results](https://presidente2018.registraduria.gov.co/resultados/2html/resultados.html)
 [^2]: Thank to Oskar Nupia for his ideas on what graphs could be interesting.
 
 All the data collection was conducted using Python[^3] and the analysis using R[^4].
@@ -47,7 +47,7 @@ As a visual aproximation for what happened after the elections I thought a Sanke
 
 It is interesting to notice that both Duque and Petro, lost some municipalities (Petro more than Duque). In addition The municipalities where Fajardo won were close to evenly divided between Petro and Duque. This off course didn't help Petro. The plot suggest that at the end the municipalities that weren't won by Petro or Duque in the first round did't chose a main candidate to add themselves.
 
-But, what happened with the white vote? Fajardo and other politicians were in favor of voting white and an expectative of a high share of the white vote rised. Lets (safely) assume that white voters would have came from Fajardo's votes (municipalities with hight vote share for the Green Party candidate), but what the graph shows is that even through there is a positive relationship between share of vote for Fajardo an white vote, it is weak. The final results show that white voters could not have had any incidence in the result should they have voted for Petro.
+But, what happened with the white vote? Fajardo and other politicians were in favor of voting white and an expectative of a high share of the white vote rised. Lets (safely) assume that white voters would come from Fajardo's votes (municipalities with hight vote share for the Green Party candidate), but what the graph shows is that even through there is a positive relationship between share of vote for Fajardo an white vote, it is weak. The final results show that white voters could not have had any incidence in the result should they have voted for Petro.
 
 <figure>
 	<a href="https://raw.githubusercontent.com/Felipe1990/personalblog/master/assets/img/post_2/distribution_fcsround.jpg"><img src="https://raw.githubusercontent.com/Felipe1990/personalblog/master/assets/img/post_2/distribution_fcsround.jpg" width="400" height="300" align="middle"></a>
