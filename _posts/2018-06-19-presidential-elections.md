@@ -36,7 +36,7 @@ Now lets divide the aforesaid candidates into three groups pro-peace-accords (Se
 
 What appears is an interesting and  self-explanatory image of a divided country. Both smooth lines[^4] for the pro-peace-accords group and anti-peace-accords group are pretty steep.
 
-[^4]: Smoothing method: 
+[^4]: Smoothing method: Loess
 
 ## Movement between rounds
 
