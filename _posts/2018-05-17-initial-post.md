@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "What were the candidates talking about a few days before elections"
+title: "What were the candidates talking about a few days before elections?"
 date: 2018-05-17
 excerpt: "A few network plots and wordclouds"
 tags: [wordcloud, network, bigrams, R]
