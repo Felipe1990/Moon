@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to use Selenium in R (in Windows 10)"
+title: "How to set up Selenium in R (in Windows 10)"
 date: 2018-07-06
 excerpt: "Installation, set-up and brief example of RSelenium in Windows 10"
 tags: [RSelenium, R, webscraping]
