@@ -76,5 +76,7 @@ Duque's figures would be redundant in this plot, since they would have the exact
 
 Any comment is welcome (on the graphs, text, grammar, further insights, etc.)
 
+Special thanks to...
+
 
 
