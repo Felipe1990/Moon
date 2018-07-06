@@ -9,6 +9,8 @@ comments: true
 
 Selenium is a "suite of tools to automate web browsers"[^1], which can be used from R using the package RSelenium and it's a great tool for webscrapping. In contrast to the using it from Python, to make it work in R some additional "tunning" is requiered. In essence this post follows the idea of [this](http://rpubs.com/johndharrison/RSelenium-Docker) RSelenium vignette but showing the process a bit clearer (I hope).
 
+[^1]: [Selenium](https://www.seleniumhq.org/)
+
 What we will do:
 
 1.	Install Docker Toolkit
@@ -19,15 +21,15 @@ What we will do:
 
 It is assumed that:
 
-1.	Virtual Machine is enable in your computer. To check whether virtual machine is enable you can open the task manager and review that virtualization is enable. It should look like this:
+-	Virtual Machine is enable in your computer. To check whether virtual machine is enable you can open the task manager and review that virtualization is enable. It should look like this:
 
 <figure>
 	<a href="https://raw.githubusercontent.com/Felipe1990/personalblog/master/assets/img/post_rselenium/task_manager.jpg"><img src="https://raw.githubusercontent.com/Felipe1990/personalblog/master/assets/img/post_rselenium/task_manager.jpg" width="400" height="300" align="middle"></a>
 </figure>
 
-2.	R and RStudio are already installed.
+-	R and RStudio are already installed.
 
-Let's begin
+**Let's begin**
 
 ## 1. Installing Docker Toolkit
 
@@ -49,7 +51,7 @@ Once we are here, close the progam. We will come back here later.
 
 ## 2. Installing RSelenium
 
-Although RSelenium has been (removed from CRAN)[https://github.com/ropensci/RSelenium/issues/172], previous working versions can be installed from the archive.
+Although RSelenium has been [removed from CRAN](https://github.com/ropensci/RSelenium/issues/172), previous working versions can be installed from the archive.
 
 Running the following code in R should install all what is needed (in R).
 
@@ -77,11 +79,11 @@ Again, there is no need to change any of the preset configurations. Once you hav
 
 ## 4. Setting all up
 
-At this point you should have almost everything needed and now we will set it up. I said almost everything because we still need the Docker containers.
+At this point you should have almost everything needed and now we will set it up. I said almost because we still need the Docker containers.
 
 The point of what we are about to do is download the firefox docker, initiate the virtual machine with the corresponding container, then conect it to the VNC viewer using the correct IP and finally use the settings we used to initiate the virtual machine to connect everything to RStudio.
 
-First things first... open "Docker Quickstart Terminal" when the whale appears run the following in the command line (just below the whale).
+First things first... open "Docker Quickstart Terminal" when the whale appears run the following in the command line (just below the whale). You only have to do this once and not every time you use RSelenium.
 
 {% highlight docker%} 
 docker pull selenium/standalone-firefox:2.53.0
@@ -94,7 +96,7 @@ After installing the containers run the following line
 docker run -d -p 4445:4444 -p 5901:5900 selenium/standalone-firefox-debug:2.53.0
 {% endhighlight %}
 
-Theese lines define the ports to be use by R and VNC. They will appear again later.
+Theese lines define the ports to be used by R and VNC. They will appear again later.
 
 If all is going well you should see something like this:
 
@@ -108,7 +110,7 @@ Do not close "Docker Quickstart Terminal" and now open VNC viewer and as VNC ser
 	<a href="https://raw.githubusercontent.com/Felipe1990/personalblog/master/assets/img/post_rselenium/VNC_viewer.jpg"><img src="https://raw.githubusercontent.com/Felipe1990/personalblog/master/assets/img/post_rselenium/VNC_viewer.jpg" width="400" height="300" align="middle"></a>
 </figure>
 
-It is going to say that you have to type a password. The password is secret... is "secret" [^3] and voila now you are looking at the virtual machine you initiate using Docker.
+You will have to type a password. The password is secret... is "secret" [^3] and voila now you are looking at the virtual machine you initiate using Docker.
 
 <figure>
 	<a href="https://raw.githubusercontent.com/Felipe1990/personalblog/master/assets/img/post_rselenium/virtual.jpg"><img src="https://raw.githubusercontent.com/Felipe1990/personalblog/master/assets/img/post_rselenium/virtual.jpg" width="400" height="300" align="middle"></a>
@@ -127,21 +129,21 @@ remDr <- remoteDriver(remoteServerAddr = "192.168.99.100",
 remDr$open(silent = T)
 {% endhighlight %}
 
-That will link your session to the virtual machine you initiate, which you can check using VNC viewer. Note the numbers (IP and port), the same we defined before.
+That will link your session to the virtual machine you initiated, which you can check using VNC viewer. Note the numbers (IP and port), the same we defined before.
 
 From this point on RSelenium [help](https://mran.revolutionanalytics.com/snapshot/2014-09-12/web/packages/RSelenium/RSelenium.pdf) and tutorials like [this](https://www.computerworld.com/article/2971265/application-development/how-to-drive-a-web-browser-with-r-and-rselenium.html) will help a lot. Basically what you'll be doing is sending, from R to the web browser, the directions you usually send using your mouse and keyboard.
 
 After you are done using RSelenium I consider good practice the following steps.
 
-1.	Close the web browser connection from R.
+-	Close the web browser connection from R.
 
 {% highlight r%} 
 remDr$close()
 {% endhighlight %}
 
-2.	Close the VNC Viewer application.
+-	Close the VNC Viewer application.
 
-3.	Stop the docker an virtual machine in "Quickstart Docker Terminal".
+-	Stop the docker an virtual machine in "Quickstart Docker Terminal".
 
 Run the following lines:
 
@@ -178,8 +180,8 @@ remDr$findElement("partial link text", "Siguiente")$clickElement() # click on "S
 
 remDr$close() # close the web browser
 
-Happy webscrapping
-
 {% endhighlight %}
+
+Happy webscrapping
 
 
