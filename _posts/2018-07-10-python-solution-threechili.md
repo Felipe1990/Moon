@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Python solutions: two chili"
-date: 2018-07-09
+title: "Python solutions: three chili"
+date: 2018-07-10
 excerpt: "Solution of Python exercises (in progress)"
 tags: [python, solutions, exercises]
 comments: true
