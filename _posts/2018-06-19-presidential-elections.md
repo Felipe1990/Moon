@@ -32,6 +32,14 @@ Now lets divide the aforesaid candidates into three groups pro-peace-accords (Se
 
 <center><iframe src="https://public.tableau.com/views/Elections2018/Dashboard1?:showVizHome=no&:embed=true" width="90%" height="500"></iframe></center>
 
+<center><iframe src="https://public.tableau.com/views/Elections2018/Dashboard1?:showVizHome=no&:embed=true" width="100%" height="100%" scrolling="no"></iframe></center>
+
+
+<center><iframe src="https://public.tableau.com/views/Elections2018/Dashboard1?:showVizHome=no&:embed=true" width="400" height="300" frameborder="0" scrolling="no"></iframe></center>
+
+
+
+
 What appears is an interesting and  self-explanatory image of a divided country. Both smooth lines[^4] for the pro-peace-accords group and anti-peace-accords group are pretty steep.
 
 [^4]: Smoothing method: Loess
