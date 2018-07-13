@@ -49,7 +49,9 @@ Create a program that asks the user for a number and then prints out a list of a
 def divisors():
     input_1=int(input("Write an integer: "))
     a=range(1, round((input_1+1)/2))
-    print("Divisor of {} are: {}".format(input_1, [x for x in a if input_1 % x==0]))
+    divisors=[x for x in a if input_1 % x==0]
+    divisors.append(input_1)
+    print("Divisor of {} are: {}".format(input_1, divisors))
 {% endhighlight %}
 
 ##  [Beginner Python exercises: E.5](https://www.practicepython.org/exercise/2014/03/05/05-list-overlap.html)

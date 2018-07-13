@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Visualization of presidential election results in Colombia - 2018"
+title: "Presidential election results in Colombia - 2018"
 date: 2018-06-19
-excerpt: "Visual analysis of the Colombian presidential elections"
-tags: [elections, R, presidential, visualization, ggplot2, dplyr, tidyverse]
+excerpt: "Colombian presidential elections"
+tags: [elections, R, presidential, ggplot2, dplyr, tidyverse]
 comments: true
 ---
 
@@ -22,9 +22,7 @@ All the data collection was conducted using Python[^2] and the analysis using R[
 
 I started by looking at the relation between the share of voters who said "Yes" in the peace plebiscite (2016) and the share of votes for each one of the candidates at a municipal level, disaggregating the results by candidate (Sergio Fajardo, Iván Duque, Humberto de la Calle, Gustavo Petro and Germán Vargas -no particular order-).
 
-<figure>
-	<a href="https://raw.githubusercontent.com/Felipe1990/personalblog/master/assets/img/post_2/pleb_firstround_1.jpg"><img src="https://raw.githubusercontent.com/Felipe1990/personalblog/master/assets/img/post_2/pleb_firstround_1.jpg" width="400" height="300" align="middle"></a>
-</figure>
+<div class='tableauPlaceholder' id='viz1531505772424' style='position: relative'><noscript><a href='#'><img alt='Dashboard 2 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;El&#47;Elections2018_boxes&#47;Dashboard2&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='path' value='views&#47;Elections2018_boxes&#47;Dashboard2?:embed=y&amp;:display_count=y&amp;publish=yes' /> <param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;El&#47;Elections2018_boxes&#47;Dashboard2&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1531505772424');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.minWidth='420px';vizElement.style.maxWidth='650px';vizElement.style.width='100%';vizElement.style.minHeight='587px';vizElement.style.maxHeight='887px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
 
 As one could expect there is high (negative) relation between the votes cast for "Yes" in the plebiscite and for Iván Duque in the first round, actually the slop is pretty steep and without much variance. Municipalities where Duque and the right is strong seem to be close together in their electoral behaviour. On the other side, for the candidates who said will defend the peace accords the municipalities's support seem to be disperse. Interestingly, Fajardo seems to have a maximun of support after which the graphs suggest municipalities will prefer Petro (or Vargas Lleras). Unfortunately for Humberto de la calle support appears to be consistently low.
 
