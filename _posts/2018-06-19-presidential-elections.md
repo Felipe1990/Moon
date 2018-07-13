@@ -30,7 +30,7 @@ As one could expect there is high (negative) relation between the votes cast for
 
 Now lets divide the aforesaid candidates into three groups pro-peace-accords (Sergio Fajardo, Gustavo Petro, Humberto de la Calle), anti-peace-accords (Iván Duque) and DK/DA-peace-accords (Germán Vargas Lleras) and aggregate the results for each one.
 
-<center><iframe src="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;El&#47;Elections2018&#47;Dashboard1&#47;1_rss.png" width="420" height="650" frameborder="0"></iframe></center>
+<center><iframe src="https://public.tableau.com/views/Elections2018/Dashboard1?:retry=yes&:embed=y&:display_count=yes" width="1004" height="1269" frameborder="0"></iframe></center>
 
 What appears is an interesting and  self-explanatory image of a divided country. Both smooth lines[^4] for the pro-peace-accords group and anti-peace-accords group are pretty steep.
 
