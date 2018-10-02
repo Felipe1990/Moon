@@ -13,7 +13,7 @@ Colombia, al igual que sus pares latinoamericanos, ha presentando una disminuci�
 
 La información corresponde a los reportes de [nacimientos](https://www.dane.gov.co/index.php/estadisticas-por-tema/salud/nacimientos-y-defunciones/nacimientos) del Departamento Adminsitrativo Nacional de Estadística (DANE) de Colombia, así como a las [proyecciones poblacionales](https://www.dane.gov.co/index.php/estadisticas-por-tema/demografia-y-poblacion/proyecciones-de-poblacion), también del DANE.
 
-<center><iframe src="http://rpubs.com/MFAN_90/natalidadcol" width="100%" height="800" scrolling="no" frameborder="0"></iframe></center>
+<center><iframe width="900" height="800" frameborder="0" scrolling="no" src="//plot.ly/~MFAN_SX/1.embed"></iframe></center>
 
 <figure>
 	<a href="https://raw.githubusercontent.com/Felipe1990/personalblog/master/assets/img/post_2/pleb_firstround_1.jpg"><img src="https://raw.githubusercontent.com/Felipe1990/personalblog/master/assets/img/post_natalidad/nacimientos_depto.gif" width="400" height="300" align="middle"></a>
