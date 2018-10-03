@@ -13,10 +13,11 @@ Colombia, al igual que sus pares latinoamericanos, ha presentando una disminuci�
 
 La información corresponde a los reportes de [nacimientos](https://www.dane.gov.co/index.php/estadisticas-por-tema/salud/nacimientos-y-defunciones/nacimientos) del Departamento Adminsitrativo Nacional de Estadística (DANE) de Colombia, así como a las [proyecciones poblacionales](https://www.dane.gov.co/index.php/estadisticas-por-tema/demografia-y-poblacion/proyecciones-de-poblacion), también del DANE.
 
-<center><iframe width="100%" height="350" frameborder="0" scrolling="no" src="//plot.ly/~MFAN_SX/1.embed"></iframe></center>
+<center><iframe width="100%" height="350" frameborder="0" scrolling="no" src="//plot.ly/~MFAN_SX/3.embed"></iframe></center>
 
 <figure>
 	<a href="https://raw.githubusercontent.com/Felipe1990/personalblog/master/assets/img/post_2/pleb_firstround_1.jpg"><img src="https://raw.githubusercontent.com/Felipe1990/personalblog/master/assets/img/post_natalidad/nacimientos_depto.gif" width="400" height="300" align="middle"></a>
 </figure>
 
 > Whatever velit occaecat quis deserunt gastropub, leggings elit tousled roof party 3 wolf moon kogi pug blue bottle ea. Fashion axe shabby chic Austin quinoa pickled laborum bitters next level, disrupt deep v accusamus non fingerstache.
+<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plot.ly/~MFAN_SX/3.embed"></iframe>
