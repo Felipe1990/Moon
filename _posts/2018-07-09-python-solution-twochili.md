@@ -200,3 +200,107 @@ def fibonacci():
     else:
         print("{} is not a integer or is not greater than 2".format(a))
 {% endhighlight %}
+
+##  [Beginner Python exercises: E.34](https://www.practicepython.org/exercise/2017/02/06/34-birthday-json.html)
+
+In the previous exercise we created a dictionary of famous scientists’ birthdays. In this exercise, modify your program from Part 1 to load the birthday dictionary from a JSON file on disk, rather than having the dictionary defined in the program.
+
+Bonus: Ask the user for another scientist’s name and birthday to add to the dictionary, and update the JSON file you have on disk with the scientist’s name. If you run the program multiple times and keep adding new names, your JSON file should keep getting bigger and bigger.
+
+Let's create the initial json file with the names and dates of some people.
+
+{% highlight python %}
+import json
+
+known_dates = [
+    {"name": "Michelle",
+     "birthday":  "07th August"},
+    {"name": "Felipe",
+     "birthday":  "17th November"},
+    {"name": "Mario",
+     "birthday":  "28th September"},
+    {"name": "Claudia",
+     "birthday":  "10th February"},
+    {"name": "Manuel",
+     "birthday": "27th December"},
+    {"name": "Henry",
+     "birthday": "31th December"}
+]
+
+with open("info.json", "w") as f:
+    json.dump(known_dates, f)
+{% endhighlight %}
+
+Now the function that allows the user to add new member to the list. Notice that no checking is included to control whether the name is already in the json file.
+
+{% highlight python %}
+
+def add_new_people():
+    with open("info.json", "r") as f:
+        birthdays = json.load(f)
+
+    name = input("What's the name of the person which birthday you want to add?")
+    birthday = input("what's her/his birthday? (dayth Month)")
+
+    birthdays.append({"name": name, "birthday": birthday})
+
+    with open("info.json", "w") as f:
+        json.dump(birthdays, f)
+
+{% endhighlight %}
+
+Finally, the function that load the json file and looks for the birthday.
+
+{% highlight python %}
+def json_query_birthday():
+    # give back birthday of selected people
+
+    with open("info.json", "r") as f:
+        known_dates = json.load(f)
+
+    print("Welcome to the birthday dictionary. We know the birthdays of: ")
+    for k in [x["name"] for x in known_dates]:
+        print("- {0}".format(k))
+
+    asked_name = input("Who's birthday do you want to know?")
+
+    if asked_name in [x["name"] for x in known_dates]:
+        print("{0}'s birthday is on {1}".format(asked_name,
+                                                [x["birthday"] for x in known_dates if x["name"] == asked_name][0]))
+    else:
+        print("Sorry we don't know {0}'s birthday".format(asked_name))
+{% endhighlight %}
+
+##  [Beginner Python exercises: E.34](https://www.practicepython.org/exercise/2017/02/28/35-birthday-months.html)
+
+In the previous exercise we saved information about famous scientists’ names and birthdays to disk. In this exercise, load that JSON file from disk, extract the months of all the birthdays, and count how many scientists have a birthday in each month.
+
+First step is to load the json file and extract the list of all the months (no matter duplicates)
+
+{% highlight python %}
+# load data
+with open("info.json", "r") as f:
+    known_dates = json.load(f)
+
+months = [x["birthday"].split(" ")[1] for x in known_dates]
+
+{% endhighlight %}
+
+Firts solution using a loop:
+
+{% highlight python %}
+count_months_manual = {}
+all_months = ["January", "February", "March", "April",
+              "May", "June", "July", "August",
+              "September", "October", "November",
+              "December"]
+
+for month_i in all_months:
+    count_months_manual[month_i] = sum([x == month_i for x in months])
+{% endhighlight %}
+
+Second solution using the collections module
+
+{% highlight python %}
+count_months_collections = dict(coll.Counter(months))
+{% endhighlight %}

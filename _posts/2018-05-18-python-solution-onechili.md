@@ -160,4 +160,30 @@ While the sintax suggests that the loop will run forever return stops the functi
 
 [^1]: [Wikipedia: binary search](https://en.wikipedia.org/wiki/Binary_search_algorithm)
 
+## [Beginner Python exercises: E.33](https://www.practicepython.org/exercise/2017/01/24/33-birthday-dictionaries.html)
 
+For this exercise, we will keep track of when our friend’s birthdays are, and be able to find that information based on their name. Create a dictionary (in your file) of names and birthdays. When you run your program it should ask the user to enter a name, and return the birthday of that person back to them.
+
+{% highlight python %}
+def query_birthday():
+    # give back birthdate of selected people
+
+    known_dates = {
+        "Michelle": "07th August",
+        "Felipe": "17th November",
+        "Mario": "28th September",
+        "Claudia": "10th February",
+        "Manuel": "27th December",
+        "Henry": "31th December"
+    }
+    print("Welcome to the birthday dictionary. We know the birthdays of: ")
+    for k in iter(known_dates.keys()):
+        print("- {0}".format(k))
+
+    asked_name = input("Who's birthday do you want to know?")
+
+    if asked_name in known_dates:
+        print("{0}'s birthday is on {1}".format(asked_name, known_dates[asked_name]))
+    else:
+        print("Sorry we don't know {0}'s birthday".format(asked_name))
+{% endhighlight %}
